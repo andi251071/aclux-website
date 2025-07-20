@@ -2,99 +2,88 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ACLUX Studios</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ACLUX STUDIO</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Orbitron', sans-serif;
-      background: radial-gradient(ellipse at top, #0e0e1a, #050510);
-      color: #ddd;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: radial-gradient(circle at top, #0a0a0a, #1a1a1a);
+      color: #e0e0e0;
+      text-align: center;
     }
     header {
-      text-align: center;
-      padding: 80px 20px;
-      background: linear-gradient(to right, #111, #1a1a2e);
+      padding: 60px 20px 20px;
     }
-    header h1 {
-      font-size: 3em;
-      color: #b0c4ff;
-      text-shadow: 0 0 20px #88aaff;
+    header img {
+      width: 120px;
+      filter: drop-shadow(0 0 10px #00b7ff);
     }
-    header p {
-      font-size: 1.2em;
-      color: #ccc;
+    h1 {
+      font-size: 48px;
+      margin: 20px 0 10px;
+      color: #c0c0c0;
     }
-    section {
-      padding: 60px 20px;
-      max-width: 900px;
-      margin: auto;
+    p.tagline {
+      font-size: 20px;
+      color: #999999;
+      margin-bottom: 40px;
     }
-    h2 {
-      color: #77aaff;
-    }
-    .product {
-      background: #111824;
-      border: 1px solid #1a2942;
-      padding: 20px;
-      margin: 20px 0;
+    .email-box {
+      font-size: 18px;
+      background-color: #252525;
+      padding: 15px 30px;
       border-radius: 10px;
+      display: inline-block;
+      margin-bottom: 40px;
+    }
+    .email-box a {
+      color: #00b7ff;
+      text-decoration: none;
+    }
+    .btn {
+      background: linear-gradient(135deg, #00b7ff, #0077cc);
+      color: #ffffff;
+      border: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: linear-gradient(135deg, #009fff, #0055aa);
     }
     footer {
-      text-align: center;
-      padding: 20px;
-      color: #555;
-      font-size: 0.9em;
+      margin-top: 60px;
+      font-size: 14px;
+      color: #666;
     }
-    .button {
-      background: #88aaff;
-      color: #000;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 5px;
-      cursor: pointer;
-      margin-top: 10px;
-    }
-    .button:hover {
-      background: #aaccff;
+    @media screen and (max-width: 600px) {
+      h1 { font-size: 36px; }
+      .email-box, .btn { font-size: 16px; padding: 12px 20px; }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>ACLUX Studios</h1>
-    <p>Where Conscious Tech Meets Cinematic Reality</p>
+    <img src="https://andi251071.github.io/aclux-website/logo.png" alt="ACLUX Logo" />
+    <h1>ACLUX STUDIO</h1>
+    <p class="tagline">Futuristic Entertainment Technology for the Next-Gen Film Industry</p>
   </header>
 
-  <section>
-    <h2>⚙️ Teknologi Unggulan</h2>
-    <div class="product">
-      <h3>🧥 AQLUX Web Hybrid Armor</h3>
-      <p>Kostum adaptif dengan sistem kromatik dan sensor emosional. Efek real-time tanpa CGI.</p>
-    </div>
-    <div class="product">
-      <h3>🤖 Laugh AI Unit-07</h3>
-      <p>Robot aktor ekspresif untuk adegan dramatis intens. Dilengkapi sistem mikroekspresi dan audio emosi.</p>
-    </div>
-    <div class="product">
-      <h3>🌌 Gotham XR Urban Set</h3>
-      <p>Lingkungan sinematik kota malam dengan efek suara & cahaya responsif real-time tanpa green screen.</p>
-    </div>
-    <div class="product">
-      <h3>🧬 Nano Core Flight Armor</h3>
-      <p>Armor pintar berbasis partikel nano yang membentuk otomatis. Ringan, reaktif, dan 100% cinematic-ready.</p>
-    </div>
-  </section>
+  <div class="email-box">
+    📩 Contact us: <a href="mailto:ckrisnamanagementcorp@gmail.com">contact@aclux.studio</a>
+  </div>
 
-  <section>
-    <h2>📩 Hubungi Kami</h2>
-    <p>Email: krisnamanagementcorp@gmail.com</p>
-    <p><button class="button" onclick="window.location.href='mailto:contact@aclux.studio'">Kirim Pesan</button></p>
-  </section>
+  <br><br>
+
+  <a class="btn" href="#catalog">📁 View Film-Tech Catalog</a>
 
   <footer>
-    &copy; 2025 ACLUX Studios. All rights reserved.
+    <p>© 2025 ACLUX Studio. All rights reserved.</p>
   </footer>
 </body>
 </html>
